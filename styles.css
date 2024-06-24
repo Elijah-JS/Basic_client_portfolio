@@ -59,7 +59,7 @@ nav ul li{
 nav ul li a {
     color: aquamarine;
     text-decoration: none;
-    transition: background-color .3s ease;
+    transition: background-color 0.3s ease;
 }
 nav ul li a:hover{
     background-color: rgb(11, 41, 41);
@@ -76,15 +76,31 @@ main {
 /* home section styles*/
 section#home {
     display:flex;
-    justify-content: center;
-    align-items: center;
+    flex:1;
+    justify-content: flex-start;
+    align-items: flex-start;
      padding: 30px;
      margin: 10px;
 
 }
-section#home h1 {
+section#home article{
+    padding-left: 5%;
+}
+section#home article h1 b {
+    font-size:x-large;
+    font-style: oblique;
+    padding-left: 4%;
+}
+
+section#home article p {
+    padding-top: 3%;
+    font-size: large;
+    font-style: oblique;
+    color: blanchedalmond
 
 }
+
+
 section#home img {
     height: 85%;
     width: 50%;
@@ -94,6 +110,10 @@ section#home img {
 }
 /* services section styles*/
 section#services {
+    display:flex;
+    flex:1;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 30px;
     margin: 10px;
 }
@@ -101,39 +121,68 @@ section#services {
 section#services img {
     border:solid;
     border-style: groove;
-    height:85%;
+    height:100%;
     width: 50%;
 }
+section#services article {
+    padding-left:5%;
+    
+}
+
+section#services article h2 b {
+
+    font-size:x-large;
+    font-style: oblique;
+    padding-left: 2%;
+    
+}
+section#services article ul {
+    list-style-type: none;
+}
+
+section#services article ul li {
+    padding-top: 3%;
+    font-size: x-large;
+    font-style: oblique;
+    color: blanchedalmond;  
+}
+
 /* about section styles*/
 section#about {
     display:flex;
-    justify-content:space-around;
-    align-items: center;
+    flex:1;
+    justify-content:flex-start;
+    align-items: flex-start;
     padding:30px;
      margin: 10px;
 }
 
-section#about .image-container {
-    flex:1;
-    padding:20px;
-}
-section#about .image-container img{
+section#about img{
     height: 85%;
     width:50%;
-    height: auto;
     border: solid;
     border-style:groove;
     
 }
-section#about .text-container {
-    flex: 1;
-    padding:20px;
-}
 
-section#about .text-container h1 {
+section#about article {
+    padding-left: 5%;
 
 }
 
+section#about article h2 {
+    padding-left: 2%;
 
+}
+section#about article p {
+    padding-top: 3%;
+    font-size: large;
+    font-style: oblique;
+    color: blanchedalmond
+}
+
+footer {
+    color:blanchedalmond
+}
 
 
