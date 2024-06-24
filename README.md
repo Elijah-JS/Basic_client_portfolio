@@ -1,3 +1,3 @@
 ﻿# Basic_client_portfolio
 
- Created a Basic Website utilizing html and CSS.so yo
+ Created a Basic Website utilizing html and CSS.
