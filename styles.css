@@ -3,18 +3,21 @@ body,h1,h2,h3,p,ul{
     padding:0;
 }
 body {
-    background-color: rgb(56, 185, 147) ;
+    background-color: #f0f0f0;
+    color: #483C32;
 }
 header {
     position:fixed;
     top:0;
     left:0;
     width:100%;
-    height:15vh;
+    height:6.7vh;
     display: flex;
     padding: 10px 20px;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(44, 62, 80, 0.8);
+    color: blanchedalmond; /* Blanched Almond for text */
     
 
 }
@@ -57,12 +60,12 @@ nav ul li{
     margin-right: 20px;
 }
 nav ul li a {
-    color: aquamarine;
+    color: blanchedalmond;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
 nav ul li a:hover{
-    background-color: rgb(11, 41, 41);
+    background-color: #34495E;
 }
 main {
     display: flex;
@@ -81,12 +84,15 @@ section#home {
     align-items: flex-start;
      padding: 30px;
      margin: 10px;
+     background-color: #ECF0F1;
+     color: #483C32
 
 }
 section#home article{
     padding-left: 5%;
 }
 section#home article h1 b {
+    color: #1ABC9C;
     font-size:x-large;
     font-style: oblique;
     padding-left: 4%;
@@ -96,7 +102,7 @@ section#home article p {
     padding-top: 3%;
     font-size: large;
     font-style: oblique;
-    color: blanchedalmond
+    color: #8E44AD;
 
 }
 
@@ -116,6 +122,8 @@ section#services {
     align-items: flex-start;
     padding: 30px;
     margin: 10px;
+    background-color: #E0E0E0; /* Light Gray */
+    color: #483C32; /* Taupe text color */
 }
 
 section#services img {
@@ -134,6 +142,7 @@ section#services article h2 b {
     font-size:x-large;
     font-style: oblique;
     padding-left: 2%;
+    color: #27AE60; /* Nephritis for sub-headings */
     
 }
 section#services article ul {
@@ -144,7 +153,7 @@ section#services article ul li {
     padding-top: 3%;
     font-size: x-large;
     font-style: oblique;
-    color: blanchedalmond;  
+    color: #F39C12; /* Carrot for list items */  
 }
 
 /* about section styles*/
@@ -155,6 +164,8 @@ section#about {
     align-items: flex-start;
     padding:30px;
      margin: 10px;
+     background-color: #FAD7A0; /* Light Orange */
+     color: #483C32;
 }
 
 section#about img{
@@ -172,17 +183,24 @@ section#about article {
 
 section#about article h2 {
     padding-left: 2%;
+    color: #E74C3C; /* Alizarin for headings */
 
 }
 section#about article p {
     padding-top: 3%;
     font-size: large;
     font-style: oblique;
-    color: blanchedalmond
+    color: #3498DB; /* Peter River for paragraph text */
+
 }
 
 footer {
-    color:blanchedalmond
+    background-color: #2C3E50; /* Dark Slate Blue */
+    color: blanchedalmond; /* Blanched Almond for text */
+}
+
+.footer-content h3 {
+    color: #F39C12; /* Carrot for heading */
 }
 
 
